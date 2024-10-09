@@ -1,12 +1,20 @@
 #!/usr/bin/python3
+"""a class Rectangle that defines a rectangle by: (based on 0-rectangle.py)"""
+
+
 class Rectangle:
+    """ a class that defines the a rectangle
+        properties: getter and setter methods for width and height
+        methods: __init__ method for creating a class
+    """
+
     def __init__(self, width=0, height=0):
         self.height = height
         self.width = width
 
     @property
     def width(self):
-        return self._width
+        return self.__width
 
     @width.setter
     def width(self, value):
