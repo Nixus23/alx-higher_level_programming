@@ -1,5 +1,21 @@
 #!/usr/bin/python3
+"""a class Rectangle that defines a rectangle by: (based on 0-rectangle.py)"""
+
+
 class Rectangle:
+    """ a class that defines the a rectangle
+        properties: getter and setter methods for width and height
+        methods: __init__ method -for creating a class
+                area method - for calculating the area of the rectangle
+                perimeter method -for calculating the perimeter of rectangle
+                __str__ methods - that returns the string representation of
+                Rectangle instance(s)
+                _repr__ method - returns the formal strig representation of
+                an object that can be evaluated
+                _del_ method - performs clean up operation before an object
+                is deleted
+    """
+
     def __init__(self, width=0, height=0):
         self.height = height
         self.width = width
