@@ -6,7 +6,6 @@
 
 class Square():
     """ The square class an initiliazion method and private attribute size """
-    __size = None
 
-    def __init__(self, size):
-        self.__Square__size = size
+    def __init__(self, __size):
+        self.__size = __size
