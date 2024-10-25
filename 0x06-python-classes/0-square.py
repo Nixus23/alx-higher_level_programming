@@ -3,4 +3,5 @@
 
 
 class Square():
+""" The Square class has no methods as it is just an empty class"""
     pass
