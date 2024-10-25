@@ -5,7 +5,7 @@
 
 
 class Square():
-""" The square class an initiliazion method and private attribute method """
+    """ The square class an initiliazion method and private attribute size """
     __size = None
 
     def __init__(self, size):
